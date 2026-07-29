@@ -70,11 +70,8 @@ textarea{
 ========== */
 
 .container{
-
-    width:min(90%,1300px);
-
-    margin:auto;
-
+    width:min(92%, 1200px);
+    margin-inline:auto;
 }
 
 
@@ -83,7 +80,5 @@ textarea{
 ========== */
 
 section{
-
-    padding:100px 0;
-
+    padding:clamp(70px,8vw,120px) 0;
 }
