@@ -1,0 +1,89 @@
+/* ==========
+   IMPORTS
+========== */
+
+@import url("./css/variables.css");
+@import url("./css/navbar.css");
+@import url("./css/hero.css");
+@import url("./css/button.css");
+@import url("./css/card.css");
+@import url("./css/footer.css");
+@import url("./css/animation.css");
+@import url("./css/responsive.css");
+
+
+/* ==========
+   RESET
+========== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:"Inter",sans-serif;
+
+    background:var(--bg-primary);
+
+    color:var(--text-primary);
+
+    overflow-x:hidden;
+
+    padding-top:90px;
+}
+
+img{
+    display:block;
+    max-width:100%;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+button{
+    border:none;
+    cursor:pointer;
+    font-family:inherit;
+}
+
+input,
+textarea{
+    font-family:inherit;
+    outline:none;
+}
+
+
+/* ==========
+   CONTAINER
+========== */
+
+.container{
+
+    width:min(90%,1300px);
+
+    margin:auto;
+
+}
+
+
+/* ==========
+   SECTION
+========== */
+
+section{
+
+    padding:100px 0;
+
+}
