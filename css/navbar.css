@@ -1,0 +1,159 @@
+/* ==========================
+        NAVBAR
+========================== */
+
+.navbar{
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    padding: 28px 0;
+
+    background: transparent;
+
+    transition: .4s ease;
+
+    z-index: 1000;
+
+}
+
+
+
+.nav-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.logo img{
+
+    height: 100px;
+
+    width: auto;
+
+    object-fit: contain;
+
+    transition: var(--transition);
+
+}
+
+
+
+.logo span{
+
+    color:var(--accent);
+
+}
+
+
+
+.nav-links{
+
+    display:flex;
+
+    gap:52px;
+
+    align-items:center;
+
+}
+
+
+
+.nav-links a{
+
+    color:var(--white);
+
+    font-weight:500;
+
+    transition:.3s;
+
+    position:relative;
+
+}
+
+
+
+.nav-links a:hover{
+
+    color:var(--accent);
+
+}
+
+
+
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--accent);
+
+    transition:.35s;
+
+}
+
+
+
+.nav-links a:hover::after{
+
+    width:100%;
+
+}
+
+
+
+.reserve-btn{
+
+    background:var(--accent);
+
+    color:#111;
+
+    padding:16px 34px;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    letter-spacing:.3px;
+
+    transition:var(--transition);
+
+}
+
+
+
+.reserve-btn:hover{
+
+    transform:translateY(-3px);
+
+    background:var(--accent-hover);
+
+}

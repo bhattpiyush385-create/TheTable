@@ -1,0 +1,51 @@
+:root{
+
+    /* COLORS */
+
+    --bg-primary:#000000;
+
+    --bg-secondary:#1D1D1D;
+
+    --bg-light:#F8F4EC;
+
+    --accent:#C89B3C;
+    
+    --accent-hover:#D9AE49;
+
+    --white:#ffffff;
+
+    --text-primary:#F5F5F5;
+
+    --text-secondary:#B8B8B8;
+
+    --success:#3FA34D;
+
+    --danger:#D9534F;
+
+
+
+    /* TYPOGRAPHY */
+
+    --heading-font:"Playfair Display",serif;
+
+    --body-font:"Inter",sans-serif;
+
+
+
+    /* SHADOW */
+
+    --shadow:0 10px 30px rgba(0,0,0,.25);
+
+
+
+    /* BORDER */
+
+    --radius:14px;
+
+
+
+    /* TRANSITION */
+
+    --transition:.35s ease;
+
+}
