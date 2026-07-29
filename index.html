@@ -25,6 +25,7 @@
 <header>
 
     <nav class="navbar">
+            <div class="nav-shell">
 
         <div class="container nav-container">
 
@@ -39,7 +40,7 @@
 
             <ul class="nav-links">
 
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
 
                 <li><a href="pages/menu.html">Menu</a></li>
 
@@ -54,7 +55,7 @@
             <a href="pages/reservation.html" class="reserve-btn">
                 Reserve Table
             </a>
-
+        </div>
         </div>
 
     </nav>
@@ -64,8 +65,6 @@
 <main>
 
 <section class="hero">
-
-    <div class="hero-overlay"></div>
 
     <div class="container hero-content">
 
@@ -110,7 +109,7 @@
      SIGNATURE DISHES
 ========================== -->
 
-<section class="signature">
+<section class="signature-reveal">
 
     <div class="container">
 
@@ -129,7 +128,7 @@
         <div class="signature-grid">
 
             <!-- 1 -->
-            <div class="dish-card">
+            <div class="dish-card reveal delay-1">
                 <img src="assets/images/menu/biryani.jpg" alt="Hyderabadi Dum Biryani">
                 <div class="dish-content">
                     <span class="dish-category">Indian</span>
@@ -145,7 +144,7 @@
             </div>
 
             <!-- 2 -->
-            <div class="dish-card">
+            <div class="dish-card reveal delay-2">
                 <img src="assets/images/menu/butter-chicken.jpg" alt="Butter Chicken">
                 <div class="dish-content">
                     <span class="dish-category">Indian</span>
@@ -161,7 +160,7 @@
             </div>
 
             <!-- 3 -->
-            <div class="dish-card">
+            <div class="dish-card reveal delay-3">
                 <img src="assets/images/menu/masala-dosa.jpg" alt="Masala Dosa">
                 <div class="dish-content">
                     <span class="dish-category">South Indian</span>
@@ -177,7 +176,7 @@
             </div>
 
             <!-- 4 -->
-            <div class="dish-card">
+            <div class="dish-card reveal delay-4">
                 <img src="assets/images/menu/sushi.jpg" alt="Dragon Roll">
                 <div class="dish-content">
                     <span class="dish-category">Japanese</span>
@@ -193,7 +192,7 @@
             </div>
 
             <!-- 5 -->
-            <div class="dish-card">
+            <div class="dish-card reveal delay-5">
                 <img src="assets/images/menu/pasta.jpg" alt="Truffle Alfredo Pasta">
                 <div class="dish-content">
                     <span class="dish-category">Italian</span>
@@ -209,7 +208,7 @@
             </div>
 
             <!-- 6 -->
-            <div class="dish-card">
+            <div class="dish-card reveal delay-6">
                 <img src="assets/images/menu/lava-cake.jpg" alt="Chocolate Lava Cake">
                 <div class="dish-content">
                     <span class="dish-category">Dessert</span>
@@ -238,7 +237,7 @@
 
 </section>
 
-<section class="experience">
+<section class="experience-reveal">
 
     <div class="container">
 
@@ -260,37 +259,37 @@
 
         <div class="experience-grid">
 
-            <div class="experience-card">
+            <div class="experience-card reveal delay-1">
                 <div class="experience-icon">👨‍👩‍👧</div>
                 <h3>Family Dining</h3>
                 <p>Warm spaces where every meal becomes a family memory.</p>
             </div>
 
-            <div class="experience-card">
+            <div class="experience-card reveal delay-2">
                 <div class="experience-icon">💕</div>
                 <h3>Romantic Evenings</h3>
                 <p>Elegant candlelight, intimate ambience and unforgettable moments.</p>
             </div>
 
-            <div class="experience-card">
+            <div class="experience-card reveal delay-3">
                 <div class="experience-icon">💼</div>
                 <h3>Business Meetings</h3>
                 <p>Quiet spaces perfect for productive conversations over fine dining.</p>
             </div>
 
-            <div class="experience-card">
+            <div class="experience-card reveal delay-4">
                 <div class="experience-icon">🎂</div>
                 <h3>Celebrations</h3>
                 <p>Birthdays, anniversaries and every special occasion deserve something extraordinary.</p>
             </div>
 
-            <div class="experience-card">
+            <div class="experience-card reveal delay-5">
                 <div class="experience-icon">☕</div>
                 <h3>Work Café</h3>
                 <p>Premium coffee, peaceful surroundings and high-speed Wi-Fi.</p>
             </div>
 
-            <div class="experience-card">
+            <div class="experience-card reveal delay-6">
                 <div class="experience-icon">🌿</div>
                 <h3>Outdoor Dining</h3>
                 <p>Fresh air, warm lights and an atmosphere that feels timeless.</p>
@@ -303,6 +302,10 @@
 </section>
 </main>
 
+
+<script src="script.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/animation.js"></script>
 </body>
 
 </html>
